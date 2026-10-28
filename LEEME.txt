@@ -1,0 +1,21 @@
+WIREFRAME EN ZIG + RAYLIB
+
+Requiere Zig 0.14.1 y Linux x86_64 (el equipo donde se probo).
+La biblioteca Raylib esta incluida en vendor; no necesita descargarse.
+
+Desde esta carpeta:
+  zig build run
+
+Solo compilar:
+  zig build
+
+Ejecutar el binario compilado desde esta carpeta:
+  ./zig-out/bin/wireframe
+
+S guarda resultado.png. Escape cierra la ventana.
+
+main.zig contiene el programa. build.zig configura la compilacion.
+modelo.obj contiene Suzanne triangulada. resultado.png es la captura.
+Zig llama a Raylib mediante @cImport de su cabecera raylib.h.
+La biblioteca precompilada incluida es para Linux x86_64; para otros
+sistemas hay que reemplazarla y adaptar las bibliotecas de build.zig.
