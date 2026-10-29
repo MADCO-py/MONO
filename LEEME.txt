@@ -19,3 +19,7 @@ modelo.obj contiene Suzanne triangulada. resultado.png es la captura.
 Zig llama a Raylib mediante @cImport de su cabecera raylib.h.
 La biblioteca precompilada incluida es para Linux x86_64; para otros
 sistemas hay que reemplazarla y adaptar las bibliotecas de build.zig.
+
+VIDEO DE LA EXPLICACIÓN
+Aquí está el video de la explicación del proyecto:
+https://youtu.be/uCVsINmaIYk
